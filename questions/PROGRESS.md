@@ -12,4 +12,4 @@
       ? MyAwaited<U>
       : U
     : never
-    
+- [268] If => Ok => type If<C extends boolean, T, F> =  C extends true ? T : F
