@@ -13,3 +13,4 @@
       : U
     : never
 - [268] If => Ok => type If<C extends boolean, T, F> =  C extends true ? T : F
+- [533] Concat => Ok => type Concat<T extends readonly any[], U extends readonly any[]> = [...T, ...U]
